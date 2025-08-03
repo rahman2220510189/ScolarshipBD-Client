@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "companyName": "Google",
+    "logo": "https://logo.clearbit.com/google.com",
+    "description": "Google offers internships in AI projects, software development, and scalable system design with mentorship and hands-on experience."
+  },
+  {
+    "id": 2,
+    "companyName": "Meta",
+    "logo": "https://logo.clearbit.com/meta.com",
+    "description": "Meta provides internships in cybersecurity, virtual reality, and metaverse innovation with expert mentorship."
+  },
+  {
+    "id": 3,
+    "companyName": "Microsoft",
+    "logo": "https://logo.clearbit.com/microsoft.com",
+    "description": "Microsoft offers HR and talent acquisition internships, focusing on recruitment and employee engagement."
+  },
+  {
+    "id": 4,
+    "companyName": "Amazon",
+    "logo": "https://logo.clearbit.com/amazon.com",
+    "description": "Amazon provides internships in mobile app testing, deployment, and customer experience improvement."
+  },
+  {
+    "id": 5,
+    "companyName": "Netflix",
+    "logo": "https://logo.clearbit.com/netflix.com",
+    "description": "Netflix offers internships focused on operations and supply chain optimization for content delivery."
+  },
+  {
+    "id": 6,
+    "companyName": "Apple",
+    "logo": "https://logo.clearbit.com/apple.com",
+    "description": "Apple’s internships focus on mobile solutions testing, quality assurance, and performance improvement."
+  },
+  {
+    "id": 7,
+    "companyName": "Intel",
+    "logo": "https://logo.clearbit.com/intel.com",
+    "description": "Intel offers operations and supply chain internships with emphasis on manufacturing and logistics."
+  },
+  {
+    "id": 8,
+    "companyName": "Tesla",
+    "logo": "https://logo.clearbit.com/tesla.com",
+    "description": "Tesla internships involve product design, prototyping, and customer research in clean energy tech."
+  },
+  {
+    "id": 9,
+    "companyName": "Adobe",
+    "logo": "https://logo.clearbit.com/adobe.com",
+    "description": "Adobe provides internships in UI development, front-end design, and scalable web applications."
+  },
+  {
+    "id": 10,
+    "companyName": "IBM",
+    "logo": "https://logo.clearbit.com/ibm.com",
+    "description": "IBM offers internships in AI, cloud computing, product design, and customer research."
+  },
+  {
+    "id": 11,
+    "companyName": "Oracle",
+    "logo": "https://logo.clearbit.com/oracle.com",
+    "description": "Oracle provides cybersecurity internships focused on threat analysis and security strategy."
+  },
+  {
+    "id": 12,
+    "companyName": "Spotify",
+    "logo": "https://logo.clearbit.com/spotify.com",
+    "description": "Spotify offers internships in scalable web app development and personalized recommendation features."
+  },
+  {
+    "id": 13,
+    "companyName": "Snap Inc",
+    "logo": "https://logo.clearbit.com/snap.com",
+    "description": "Snapchat’s parent company offers internships in mobile app testing and deployment."
+  },
+  {
+    "id": 14,
+    "companyName": "Twitter",
+    "logo": "https://logo.clearbit.com/twitter.com",
+    "description": "Twitter provides internships in UI development, backend scalability, and user engagement."
+  },
+  {
+    "id": 15,
+    "companyName": "Salesforce",
+    "logo": "https://logo.clearbit.com/salesforce.com",
+    "description": "Salesforce internships focus on UI components, scalable applications, and CRM solutions."
+  },
+  {
+    "id": 16,
+    "companyName": "Dropbox",
+    "logo": "https://logo.clearbit.com/dropbox.com",
+    "description": "Dropbox offers internships in social media campaigns and digital marketing strategies."
+  },
+  {
+    "id": 17,
+    "companyName": "Uber",
+    "logo": "https://logo.clearbit.com/uber.com",
+    "description": "Uber internships focus on mobile app testing, deployment, and user experience."
+  },
+  {
+    "id": 18,
+    "companyName": "Airbnb",
+    "logo": "https://logo.clearbit.com/airbnb.com",
+    "description": "Airbnb offers internships in social media management and digital marketing."
+  },
+  {
+    "id": 19,
+    "companyName": "Zoom",
+    "logo": "https://logo.clearbit.com/zoom.us",
+    "description": "Zoom provides HR internships focusing on talent acquisition and onboarding."
+  },
+  {
+    "id": 20,
+    "companyName": "NVIDIA",
+    "logo": "https://logo.clearbit.com/nvidia.com",
+    "description": "NVIDIA internships involve cloud services, AI computing, and data pipeline projects."
+  }
+]

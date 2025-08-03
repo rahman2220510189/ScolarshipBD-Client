@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "companyName": "SkyVista Travels",
+    "jobTitle": "Tour Planner",
+    "jobDescription": "Design personalized travel experiences based on mood and budget.",
+    "ceoName": "Farhan Kabir",
+    "publishedDate": "2025-07-15",
+    "image": "https://i.ibb.co/S7QNZVdw/7534723-XL.webp"
+  },
+  {
+    "id": 2,
+    "companyName": "TalentBridge",
+    "jobTitle": "Data Analyst",
+    "jobDescription": "Gain real-world experience working with modern technologies and teams.",
+    "ceoName": "Anika Rahman",
+    "publishedDate": "2025-07-18",
+    "image": "https://i.ibb.co/v5hk8g5/download-7.jpg"
+  },
+  {
+    "id": 3,
+    "companyName": "MoodMap AI",
+    "jobTitle": "AI Research Intern",
+    "jobDescription": "Help build emotion-aware recommendation systems for travel and lifestyle.",
+    "ceoName": "Rafiul Islam",
+    "publishedDate": "2025-07-20",
+    "image": "https://i.ibb.co/spWdbG1m/download-8.jpg"
+  },
+  {
+    "id": 4,
+    "companyName": "WanderNest",
+    "jobTitle": "Travel Content Creator",
+    "jobDescription": "Capture stories from hidden gems across Bangladesh.",
+    "ceoName": "Nusrat Jahan",
+    "publishedDate": "2025-07-22",
+    "image": "https://i.ibb.co/zHbtJH1R/download-9.jpg"
+  },
+  {
+    "id": 5,
+    "companyName": "BudgetExplorer",
+    "jobTitle": "Tour Research Assistant",
+    "jobDescription": "Find low-cost travel options for students and solo travelers.",
+    "ceoName": "Tanvir Hasan",
+    "publishedDate": "2025-07-25",
+    "image": "https://i.ibb.co/pvwLZGDF/download-10.jpg"
+  },
+  {
+    "id": 6,
+    "companyName": "NaturePulse",
+    "jobTitle": "Eco Tour Designer",
+    "jobDescription": "Plan nature-based trips for mental wellness and relaxation.",
+    "ceoName": "Meher Afroz",
+    "publishedDate": "2025-07-28",
+    "image": "https://i.ibb.co/sp0Hh12t/images-14.jpg"
+  },
+  {
+    "id": 7,
+    "companyName": "TripVerse",
+    "jobTitle": "Frontend Developer (React)",
+    "jobDescription": "Build interactive travel dashboards and booking interfaces.",
+    "ceoName": "Shahriar Ahmed",
+    "publishedDate": "2025-07-30",
+    "image": "https://i.ibb.co/PbZ2yDM/images-15.jpg"
+  },
+  {
+    "id": 8,
+    "companyName": "TripVerse",
+    "jobTitle": "UI/UX Designer",
+    "jobDescription": "Design intuitive travel recommendation interfaces.",
+    "ceoName": "Shahriar Ahmed",
+    "publishedDate": "2025-08-01",
+    "image": "https://i.ibb.co/PbZ2yDM/images-15.jpg"
+  },
+  {
+    "id": 9,
+    "companyName": "Explore360",
+    "jobTitle": "Backend Developer",
+    "jobDescription": "Integrate APIs and build scalable travel recommendation engines.",
+    "ceoName": "Ayesha Siddiqua",
+    "publishedDate": "2025-08-03",
+    "image": "https://i.ibb.co/JwZh7F25/images-16.jpg"
+  },
+  {
+    "id": 10,
+    "companyName": "HaorHopper",
+    "jobTitle": "Local Tour Guide",
+    "jobDescription": "Lead immersive tours through haor regions and wetlands.",
+    "ceoName": "Jahangir Alam",
+    "publishedDate": "2025-08-05",
+    "image": "https://i.ibb.co/rKXm4j07/images-18.jpg"
+  },
+  {
+    "id": 11,
+    "companyName": "CultureConnect",
+    "jobTitle": "Heritage Researcher",
+    "jobDescription": "Document and promote historical sites across Bangladesh.",
+    "ceoName": "Dr. Mahbuba Sultana",
+    "publishedDate": "2025-08-07",
+    "image": "https://i.ibb.co/qF72zb4t/images-19.jpg"
+  },
+  {
+    "id": 12,
+    "companyName": "Radisson Blu Dhaka",
+    "jobTitle": "Hospitality Intern",
+    "jobDescription": "Learn luxury hotel operations and guest experience management.",
+    "ceoName": "Rezaul Karim",
+    "publishedDate": "2025-08-09",
+    "image": "https://i.ibb.co/HL1tp3zf/radisson-blu-dhaka-water.jpg"
+  },
+  {
+    "id": 13,
+    "companyName": "SkyVista Travels",
+    "jobTitle": "Travel Photographer",
+    "jobDescription": "Capture breathtaking moments from across the country.",
+    "ceoName": "Farhan Kabir",
+    "publishedDate": "2025-08-11",
+    "image": "https://i.ibb.co/S7QNZVdw/7534723-XL.webp"
+  },
+  {
+    "id": 14,
+    "companyName": "Dhaka Airport Authority",
+    "jobTitle": "Operations Assistant",
+    "jobDescription": "Support airport logistics and passenger services.",
+    "ceoName": "Md. Shahinur Rahman",
+    "publishedDate": "2025-08-13",
+    "image": "https://i.ibb.co/tTq7szhv/dacbr-entrance-7303-hor-wide.jpg"
+  },
+  {
+    "id": 15,
+    "companyName": "Heritage Trails",
+    "jobTitle": "Cultural Tour Curator",
+    "jobDescription": "Design tours that highlight Bangladesh’s rich history.",
+    "ceoName": "Lubna Chowdhury",
+    "publishedDate": "2025-08-15",
+    "image": "https://i.ibb.co/nsFbWGk1/images-23.jpg"
+  },
+  {
+    "id": 16,
+    "companyName": "GreenEscape",
+    "jobTitle": "Sustainable Travel Consultant",
+    "jobDescription": "Promote eco-friendly travel options across the country.",
+    "ceoName": "Imran Hossain",
+    "publishedDate": "2025-08-17",
+    "image": "https://i.ibb.co/VYCB1tzP/images-22.jpg"
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "name": "Sophia Ramirez",
+    "photo": "https://randomuser.me/api/portraits/women/21.jpg",
+    "state": "California",
+    "amount": 5000,
+    "school": "University of California, Berkeley",
+    "advice": "Stay curious and never stop learning."
+  },
+  {
+    "id": 2,
+    "name": "Liam Johnson",
+    "photo": "https://randomuser.me/api/portraits/men/45.jpg",
+    "state": "Texas",
+    "amount": 4500,
+    "school": "University of Texas at Austin",
+    "advice": "Hard work beats talent when talent doesn’t work hard."
+  },
+  {
+    "id": 3,
+    "name": "Emma Chen",
+    "photo": "https://randomuser.me/api/portraits/women/65.jpg",
+    "state": "New York",
+    "amount": 6000,
+    "school": "New York University",
+    "advice": "Believe in yourself and your dreams."
+  },
+  {
+    "id": 4,
+    "name": "Noah Smith",
+    "photo": "https://randomuser.me/api/portraits/men/12.jpg",
+    "state": "Florida",
+    "amount": 5500,
+    "school": "University of Florida",
+    "advice": "Challenges are opportunities to grow."
+  },
+  {
+    "id": 5,
+    "name": "Isabella Martinez",
+    "photo": "https://randomuser.me/api/portraits/women/34.jpg",
+    "state": "Illinois",
+    "amount": 4800,
+    "school": "University of Illinois Urbana-Champaign",
+    "advice": "Stay focused and keep pushing forward."
+  },
+  {
+    "id": 6,
+    "name": "Ethan Brown",
+    "photo": "https://randomuser.me/api/portraits/men/77.jpg",
+    "state": "Ohio",
+    "amount": 5200,
+    "school": "Ohio State University",
+    "advice": "Learn from every failure and never quit."
+  },
+  {
+    "id": 7,
+    "name": "Mia Davis",
+    "photo": "https://randomuser.me/api/portraits/women/19.jpg",
+    "state": "Georgia",
+    "amount": 4700,
+    "school": "Georgia Institute of Technology",
+    "advice": "Be kind, work hard, and stay humble."
+  },
+  {
+    "id": 8,
+    "name": "James Wilson",
+    "photo": "https://randomuser.me/api/portraits/men/53.jpg",
+    "state": "Michigan",
+    "amount": 5300,
+    "school": "University of Michigan",
+    "advice": "Success comes from consistency and effort."
+  },
+  {
+    "id": 9,
+    "name": "Olivia Garcia",
+    "photo": "https://randomuser.me/api/portraits/women/48.jpg",
+    "state": "Washington",
+    "amount": 4900,
+    "school": "University of Washington",
+    "advice": "Dream big, and work hard to achieve it."
+  },
+  {
+    "id": 10,
+    "name": "Benjamin Lee",
+    "photo": "https://randomuser.me/api/portraits/men/30.jpg",
+    "state": "Colorado",
+    "amount": 5100,
+    "school": "University of Colorado Boulder",
+    "advice": "Stay determined and believe in your abilities."
+  },
+  {
+    "id": 11,
+    "name": "Charlotte Taylor",
+    "photo": "https://randomuser.me/api/portraits/women/29.jpg",
+    "state": "Arizona",
+    "amount": 4600,
+    "school": "Arizona State University",
+    "advice": "Knowledge is power — keep seeking it."
+  },
+  {
+    "id": 12,
+    "name": "Alexander Moore",
+    "photo": "https://randomuser.me/api/portraits/men/58.jpg",
+    "state": "Pennsylvania",
+    "amount": 5000,
+    "school": "Pennsylvania State University",
+    "advice": "Stay positive and take one step at a time."
+  },
+  {
+    "id": 13,
+    "name": "Amelia Anderson",
+    "photo": "https://randomuser.me/api/portraits/women/16.jpg",
+    "state": "North Carolina",
+    "amount": 4800,
+    "school": "University of North Carolina at Chapel Hill",
+    "advice": "Believe in your dreams and make them real."
+  },
+  {
+    "id": 14,
+    "name": "Michael Thomas",
+    "photo": "https://randomuser.me/api/portraits/men/26.jpg",
+    "state": "Virginia",
+    "amount": 5400,
+    "school": "University of Virginia",
+    "advice": "Every step forward is progress."
+  },
+  {
+    "id": 15,
+    "name": "Evelyn Jackson",
+    "photo": "https://randomuser.me/api/portraits/women/12.jpg",
+    "state": "Massachusetts",
+    "amount": 4700,
+    "school": "Boston University",
+    "advice": "Stay motivated and keep growing."
+  },
+  {
+    "id": 16,
+    "name": "William Harris",
+    "photo": "https://randomuser.me/api/portraits/men/14.jpg",
+    "state": "Oregon",
+    "amount": 5200,
+    "school": "University of Oregon",
+    "advice": "Focus on your goals with determination."
+  },
+  {
+    "id": 17,
+    "name": "Ella Martin",
+    "photo": "https://randomuser.me/api/portraits/women/5.jpg",
+    "state": "New Jersey",
+    "amount": 5000,
+    "school": "Rutgers University",
+    "advice": "Keep learning, keep pushing boundaries."
+  },
+  {
+    "id": 18,
+    "name": "James Clark",
+    "photo": "https://randomuser.me/api/portraits/men/8.jpg",
+    "state": "Nevada",
+    "amount": 5100,
+    "school": "University of Nevada, Reno",
+    "advice": "Success requires patience and persistence."
+  },
+  {
+    "id": 19,
+    "name": "Grace Lewis",
+    "photo": "https://randomuser.me/api/portraits/women/22.jpg",
+    "state": "Minnesota",
+    "amount": 4800,
+    "school": "University of Minnesota",
+    "advice": "Stay humble and keep your goals clear."
+  },
+  {
+    "id": 20,
+    "name": "Henry Walker",
+    "photo": "https://randomuser.me/api/portraits/men/3.jpg",
+    "state": "Wisconsin",
+    "amount": 5300,
+    "school": "University of Wisconsin–Madison",
+    "advice": "Never stop striving for excellence."
+  }
+]

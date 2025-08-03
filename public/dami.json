@@ -1,0 +1,82 @@
+[
+  {
+    "companyName": "Bright Future Foundation",
+    "logo": "https://i.ibb.co/237DPr4B/images-2.png",
+    "awardAmount": 1000,
+    "deadline": "2025-07-15",
+    "description": "We believe that education changes lives. This $1000 award is provided to help passionate students from underrepresented communities achieve their college dreams.",
+    "applyLink": "#"
+  },
+  {
+    "companyName": "TechWomen Scholars",
+    "logo": "https://i.ibb.co/5h60ZZ4g/images-4.jpg",
+    "awardAmount": 1500,
+    "deadline": "2025-08-01",
+    "description": "TechWomen is committed to supporting women in STEM by offering scholarships that open doors for future innovation and equity.",
+    "applyLink": "#"
+  },
+  {
+    "companyName": "Global Citizens Grant",
+    "logo": "https://i.ibb.co/k2pDDW2F/images-3.png",
+    "awardAmount": 1200,
+    "deadline": "2025-07-30",
+    "description": "Empowering young leaders to impact the world through education. We fund students passionate about social impact and global justice.",
+    "applyLink": "#"
+  },
+  {
+    "companyName": "Green Earth Scholars",
+    "logo": "https://i.ibb.co/C3Wht5nf/images-5.jpg",
+    "awardAmount": 2000,
+    "deadline": "2025-09-05",
+    "description": "This scholarship supports environmentally conscious students who want to create a more sustainable planet through innovation and education.",
+    "applyLink": "#"
+  },
+  {
+    "companyName": "CodeFuture Foundation",
+    "logo": "https://i.ibb.co/Hfw0L6m8/3d973d-54072c6d3e4a4939ae83b0ea0a6a8b39-mv2.png",
+    "awardAmount": 1800,
+    "deadline": "2025-07-20",
+    "description": "We support students entering the tech field who show great promise and need financial help to succeed in coding and software development.",
+    "applyLink": "#"
+  },
+  {
+    "companyName": "Artists of Tomorrow",
+    "logo": "https://i.ibb.co/fYJ2xQTN/images-6.jpg",
+    "awardAmount": 900,
+    "deadline": "2025-08-25",
+    "description": "Designed to help young creatives afford art school and grow their craft, this award celebrates expression through design and visual storytelling.",
+    "applyLink": "#"
+  },
+  {
+    "companyName": "Future Nurses Fund",
+    "logo": "https://i.ibb.co/zVgyHjxB/images-7.jpg",
+    "awardAmount": 2500,
+    "deadline": "2025-10-01",
+    "description": "The healthcare system depends on compassionate, skilled professionals. This scholarship supports future nurses who are ready to serve and heal.",
+    "applyLink": "#"
+  },
+  {
+    "companyName": "Business Builders Award",
+    "logo": "https://i.ibb.co/Tzn49Bb/images-8.jpg",
+    "awardAmount": 1300,
+    "deadline": "2025-08-10",
+    "description": "Created for student entrepreneurs and business majors who show leadership potential and a drive to innovate in the world of commerce.",
+    "applyLink": "#"
+  },
+  {
+    "companyName": "Science Stars Scholarship",
+    "logo": "https://i.ibb.co/TMj3YT7J/images-9.jpg",
+    "awardAmount": 1600,
+    "deadline": "2025-09-15",
+    "description": "Encouraging students in scientific research, this scholarship supports those who aim to discover, explore, and solve real-world problems.",
+    "applyLink": "#"
+  },
+  {
+    "companyName": "Humanities Honors Fund",
+    "logo": "https://i.ibb.co/xSVm1Rk3/images-10.jpg",
+    "awardAmount": 1100,
+    "deadline": "2025-08-18",
+    "description": "This award helps students studying philosophy, literature, and history who believe in the power of ideas to transform the world.",
+    "applyLink": "#"
+  }
+]

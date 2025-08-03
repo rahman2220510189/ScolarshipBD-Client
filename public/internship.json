@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "companyName": "Google",
+    "jobDescription": "Work on cutting-edge AI projects and collaborate with global teams.",
+    "ceoName": "Sundar Pichai",
+    "publishedDate": "2025-06-14",
+    "image": "https://logo.clearbit.com/google.com",
+    "website": "https://www.google.com",
+    "article": "Google, founded in 1998, has revolutionized the way the world accesses information. The company is a global leader in technology, specializing in internet-related services and products such as online advertising technologies, search engine, cloud computing, software, and hardware. As a Google intern, you will get to work on cutting-edge AI projects that impact millions of users worldwide. Interns collaborate with diverse teams, learning best practices in software development, machine learning, and scalable system design. Google offers a dynamic, innovative environment where creativity and technical excellence thrive. The internship program nurtures future leaders with mentorship, real-world projects, and hands-on experience that prepares students for successful careers in tech."
+  },
+  {
+    "id": 2,
+    "companyName": "Meta",
+    "jobDescription": "Support the cybersecurity division in threat analysis.",
+    "ceoName": "Mark Zuckerberg",
+    "publishedDate": "2025-05-07",
+    "image": "https://logo.clearbit.com/meta.com",
+    "website": "https://about.facebook.com/meta",
+    "article": "Meta Platforms, formerly Facebook, is pioneering the future of social connectivity through its focus on virtual reality and the metaverse. Interning at Meta gives you the opportunity to work in cybersecurity, a crucial division that protects billions of users’ data. As an intern, you will participate in threat analysis, risk management, and develop tools to enhance platform security. Meta encourages innovative problem-solving and teamwork, providing interns with mentorship from industry experts and exposure to large-scale, complex systems. This internship is ideal for students passionate about cybersecurity, privacy, and next-generation digital experiences."
+  },
+  {
+    "id": 3,
+    "companyName": "Microsoft",
+    "jobDescription": "Join the HR department in talent acquisition and onboarding.",
+    "ceoName": "Satya Nadella",
+    "publishedDate": "2025-06-04",
+    "image": "https://logo.clearbit.com/microsoft.com",
+    "website": "https://www.microsoft.com",
+    "article": "Microsoft is a multinational technology company known for its software products, including Windows OS and Office Suite. The internship in Microsoft’s HR department offers students hands-on experience in talent acquisition and onboarding processes. Interns learn to manage recruitment pipelines, conduct candidate screenings, and help new employees transition smoothly into the company culture. Microsoft values diversity, equity, and inclusion, encouraging interns to contribute ideas to improve employee engagement. This internship is perfect for students interested in human resources, organizational behavior, and corporate culture management."
+  },
+  {
+    "id": 4,
+    "companyName": "Amazon",
+    "jobDescription": "Join the team in testing and deploying mobile solutions.",
+    "ceoName": "Andy Jassy",
+    "publishedDate": "2025-06-04",
+    "image": "https://logo.clearbit.com/amazon.com",
+    "website": "https://www.amazon.com",
+    "article": "Amazon is the world’s largest online retailer and a leader in cloud computing services. Interning at Amazon in mobile solutions testing involves working on innovative apps that enhance customer experience. Interns collaborate with engineers to deploy, test, and refine applications used by millions daily. Amazon’s fast-paced environment fosters continuous learning and encourages interns to take ownership of projects. This experience is valuable for students aspiring to careers in software engineering, quality assurance, and product management."
+  },
+  {
+    "id": 5,
+    "companyName": "Netflix",
+    "jobDescription": "Work in operations and supply chain optimization.",
+    "ceoName": "Ted Sarandos",
+    "publishedDate": "2025-04-23",
+    "image": "https://logo.clearbit.com/netflix.com",
+    "website": "https://www.netflix.com",
+    "article": "Netflix is a global streaming service providing entertainment to millions worldwide. The internship in operations and supply chain optimization allows students to analyze and improve Netflix’s content delivery networks and supplier relationships. Interns work on data-driven projects that increase efficiency and reduce operational costs. They gain exposure to logistics management, vendor coordination, and process automation. Netflix’s culture of innovation and high standards helps interns develop strategic thinking and problem-solving skills."
+  },
+  {
+    "id": 6,
+    "companyName": "Apple",
+    "jobDescription": "Join the team in testing and deploying mobile solutions.",
+    "ceoName": "Tim Cook",
+    "publishedDate": "2025-04-22",
+    "image": "https://logo.clearbit.com/apple.com",
+    "website": "https://www.apple.com",
+    "article": "Apple is renowned worldwide for its hardware innovations and software ecosystems. The internship in mobile solutions focuses on testing and deploying apps for iOS devices. Interns gain hands-on experience in quality assurance, performance testing, and user experience improvement. Apple’s culture of secrecy and excellence challenges interns to deliver high-quality work in a collaborative environment. This program is ideal for students interested in software development, user interface design, and product testing."
+  },
+  {
+    "id": 7,
+    "companyName": "Intel",
+    "jobDescription": "Work in operations and supply chain optimization.",
+    "ceoName": "Pat Gelsinger",
+    "publishedDate": "2025-06-10",
+    "image": "https://logo.clearbit.com/intel.com",
+    "website": "https://www.intel.com",
+    "article": "Intel is a leading semiconductor chip manufacturer. Their internship program in operations and supply chain optimization enables students to work on manufacturing processes, logistics, and supplier management. Interns analyze supply chain workflows to identify bottlenecks and implement efficiency improvements. Intel encourages innovation and data-driven decision-making, providing an enriching environment for students in industrial engineering, operations research, and business analytics."
+  },
+  {
+    "id": 8,
+    "companyName": "Tesla",
+    "jobDescription": "Contribute to product design and customer research.",
+    "ceoName": "Elon Musk",
+    "publishedDate": "2025-04-30",
+    "image": "https://logo.clearbit.com/tesla.com",
+    "website": "https://www.tesla.com",
+    "article": "Tesla, the electric vehicle and clean energy company, is transforming transportation. Interns contribute to product design, focusing on engineering and customer research. They assist in prototyping, testing, and gathering customer feedback to refine vehicle features. Tesla’s fast-paced, mission-driven culture provides a unique learning environment. Interns gain exposure to cutting-edge automotive technologies, renewable energy solutions, and sustainability practices, ideal for engineering and design students."
+  },
+  {
+    "id": 9,
+    "companyName": "Adobe",
+    "jobDescription": "Assist in developing user interfaces and scalable web applications.",
+    "ceoName": "Shantanu Narayen",
+    "publishedDate": "2025-06-07",
+    "image": "https://logo.clearbit.com/adobe.com",
+    "website": "https://www.adobe.com",
+    "article": "Adobe is a leader in creative software solutions. Interns help develop intuitive user interfaces and scalable web applications used by millions globally. They work with software engineers and UX designers on projects like Adobe Creative Cloud and Adobe Experience Manager. The internship focuses on front-end development, UI/UX research, and cloud integration. Adobe’s creative culture encourages innovation and teamwork, perfect for students interested in software development and digital design."
+  },
+  {
+    "id": 10,
+    "companyName": "IBM",
+    "jobDescription": "Contribute to product design and customer research.",
+    "ceoName": "Arvind Krishna",
+    "publishedDate": "2025-05-14",
+    "image": "https://logo.clearbit.com/ibm.com",
+    "website": "https://www.ibm.com",
+    "article": "IBM is a multinational technology company with expertise in cloud computing and AI. The internship involves contributing to product design and customer research initiatives. Interns collaborate on projects involving AI model development, cloud solutions, and enterprise software. IBM offers a professional environment emphasizing continuous learning, innovation, and client engagement. This is suitable for students in computer science, engineering, and business analytics."
+  },
+  {
+    "id": 11,
+    "companyName": "Oracle",
+    "jobDescription": "Support the cybersecurity division in threat analysis.",
+    "ceoName": "Safra Catz",
+    "publishedDate": "2025-04-29",
+    "image": "https://logo.clearbit.com/oracle.com",
+    "website": "https://www.oracle.com",
+    "article": "Oracle is a major player in database software and cloud services. Interns supporting cybersecurity learn to analyze threats, assess risks, and develop defensive strategies. They assist security teams in identifying vulnerabilities and automating monitoring. Oracle’s internship fosters skills in network security, cryptography, and regulatory compliance. Ideal candidates are those passionate about cybersecurity and information assurance."
+  },
+  {
+    "id": 12,
+    "companyName": "Spotify",
+    "jobDescription": "Assist in developing user interfaces and scalable web applications.",
+    "ceoName": "Daniel Ek",
+    "publishedDate": "2025-04-22",
+    "image": "https://logo.clearbit.com/spotify.com",
+    "website": "https://www.spotify.com",
+    "article": "Spotify is the world’s leading music streaming platform. Interns assist in developing scalable web applications and user interfaces that support millions of listeners daily. They contribute to frontend engineering, data analytics, and personalized recommendation features. Spotify promotes a culture of creativity, collaboration, and innovation, making it a great place for students interested in software development and data science."
+  },
+  {
+    "id": 13,
+    "companyName": "Snap Inc",
+    "jobDescription": "Join the team in testing and deploying mobile solutions.",
+    "ceoName": "Evan Spiegel",
+    "publishedDate": "2025-05-26",
+    "image": "https://logo.clearbit.com/snap.com",
+    "website": "https://www.snap.com",
+    "article": "Snap Inc is the parent company of Snapchat, a popular multimedia messaging app. Interns participate in mobile app testing and deployment, ensuring high-quality releases. They collaborate with product teams to identify bugs and improve performance. Snap’s innovative and fast-paced culture offers valuable experience in mobile software engineering, quality assurance, and user engagement."
+  },
+  {
+    "id": 14,
+    "companyName": "Twitter",
+    "jobDescription": "Assist in developing user interfaces and scalable web applications.",
+    "ceoName": "Linda Yaccarino",
+    "publishedDate": "2025-05-31",
+    "image": "https://logo.clearbit.com/twitter.com",
+    "website": "https://www.twitter.com",
+    "article": "Twitter is a leading social media platform known for real-time communication. Interns contribute to building user interfaces and scalable backend services. They work on enhancing tweet delivery systems, analytics dashboards, and user engagement tools. Twitter fosters a culture of openness, rapid iteration, and impact-driven work, making it an ideal internship for software engineering and data science students."
+  },
+  {
+    "id": 15,
+    "companyName": "Salesforce",
+    "jobDescription": "Assist in developing user interfaces and scalable web applications.",
+    "ceoName": "Marc Benioff",
+    "publishedDate": "2025-06-07",
+    "image": "https://logo.clearbit.com/salesforce.com",
+    "website": "https://www.salesforce.com",
+    "article": "Salesforce is a cloud computing company best known for its customer relationship management (CRM) products. Interns help develop UI components and scalable applications for enterprise users. They collaborate with engineers and designers to improve product features and usability. Salesforce values innovation, equality, and sustainability, providing interns a meaningful work environment in the cloud software industry."
+  },
+  {
+    "id": 16,
+    "companyName": "Dropbox",
+    "jobDescription": "Engage in social media and digital marketing strategy.",
+    "ceoName": "Drew Houston",
+    "publishedDate": "2025-06-16",
+    "image": "https://logo.clearbit.com/dropbox.com",
+    "website": "https://www.dropbox.com",
+    "article": "Dropbox is a file hosting service that offers cloud storage and collaboration tools. Interns contribute to social media campaigns and digital marketing strategies. They analyze audience data, create content calendars, and support product launches. Dropbox fosters a creative and inclusive culture, providing interns with hands-on experience in marketing, communications, and brand management."
+  },
+  {
+    "id": 17,
+    "companyName": "Uber",
+    "jobDescription": "Join the team in testing and deploying mobile solutions.",
+    "ceoName": "Dara Khosrowshahi",
+    "publishedDate": "2025-05-12",
+    "image": "https://logo.clearbit.com/uber.com",
+    "website": "https://www.uber.com",
+    "article": "Uber is a global ridesharing and delivery company. Interns help test and deploy mobile applications used by millions worldwide. They collaborate with cross-functional teams on features that improve user experience and safety. Uber’s fast-paced environment encourages problem-solving and innovation, offering interns valuable experience in mobile software development and quality assurance."
+  },
+  {
+    "id": 18,
+    "companyName": "Airbnb",
+    "jobDescription": "Engage in social media and digital marketing strategy.",
+    "ceoName": "Brian Chesky",
+    "publishedDate": "2025-05-22",
+    "image": "https://logo.clearbit.com/airbnb.com",
+    "website": "https://www.airbnb.com",
+    "article": "Airbnb is an online marketplace for lodging and tourism experiences. Interns assist in social media management and digital marketing strategy to grow Airbnb’s brand presence. They work on campaigns targeting diverse demographics and monitor key metrics. The internship offers opportunities to collaborate with creative teams in a dynamic, global company committed to community and sustainability."
+  },
+  {
+    "id": 19,
+    "companyName": "Zoom",
+    "jobDescription": "Join the HR department in talent acquisition and onboarding.",
+    "ceoName": "Eric Yuan",
+    "publishedDate": "2025-05-02",
+    "image": "https://logo.clearbit.com/zoom.us",
+    "website": "https://zoom.us",
+    "article": "Zoom is a leading video communications platform. Interns in HR assist with talent acquisition and onboarding processes, helping to identify top candidates and support new hires. They gain experience in recruitment, employee engagement, and HR operations. Zoom’s culture emphasizes teamwork, innovation, and work-life balance, making it an excellent environment for students interested in human resources."
+  },
+  {
+    "id": 20,
+    "companyName": "NVIDIA",
+    "jobDescription": "Gain hands-on experience with cloud services and data pipelines.",
+    "ceoName": "Jensen Huang",
+    "publishedDate": "2025-04-23",
+    "image": "https://logo.clearbit.com/nvidia.com",
+    "website": "https://www.nvidia.com",
+    "article": "NVIDIA is a global leader in graphics processing and AI computing. Interns gain experience with cloud services, data pipelines, and AI model deployment. They collaborate with engineers to optimize software and hardware performance for gaming, professional visualization, and AI research. NVIDIA’s culture values creativity, technical excellence, and diversity, providing interns with exposure to cutting-edge technology and collaborative projects."
+  }
+]
