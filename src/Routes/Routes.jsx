@@ -18,6 +18,10 @@ import FeaturedInernship from "../Pages/Internship/FeaturedInernship";
 import FeaturedInternshipApply from "../Pages/Internship/FeaturedInternshipApply";
 import PartTimeJob from "../Pages/Internship/PartTimeJob";
 import JoBDetails from "../Pages/Internship/JoBDEtails";
+import ScholarshipProvider from "../Pages/ScholarshipProvider/ScholarshipProvider";
+import ProfileForm from "../Pages/FindScholarship/ProfileForm";
+import SchoolForm from "../Pages/FindScholarship/SchoolForm";
+import Guid from "../Pages/FindScholarship/Guid";
 
 export const router = createBrowserRouter([
   {
@@ -84,6 +88,23 @@ export const router = createBrowserRouter([
         {
             path:'/job/:id',
             element:<JoBDetails></JoBDetails>,
+        },
+        {
+            path:'/scholarship-providers',
+            element: <ScholarshipProvider></ScholarshipProvider>,
+        },
+        {
+            path:'profile',
+            element:<ProfileForm></ProfileForm>,
+        },
+        {
+           path:'match',
+           element:<SchoolForm></SchoolForm>,
+
+        },
+        {
+            path:'guid',
+            element:<Guid></Guid>,
         },
        
     

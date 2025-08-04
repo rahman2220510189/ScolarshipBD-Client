@@ -5,6 +5,7 @@ import pic2 from '../../Image/images.jpeg'
 import pic3 from '../../Image/images (1).jpeg'
 import pic4 from '../../Image/hhhh.jpg'
 import { FaBriefcase, FaCalendarAlt, FaGraduationCap, FaNewspaper, FaTag } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const SecondHome = () => {
     const [tab, setTab] = useState('research')
@@ -159,6 +160,7 @@ const SecondHome = () => {
         <div className="grid sm:grid-cols-2 gap-6">
 
           {/* Card 1 */}
+          <Link to ='/featured-scholarship'>
           <div className="bg-white shadow-lg p-6 rounded-xl">
             <FaGraduationCap className="text-3xl bg-green-500 text-white p-2 rounded-md mb-4" />
             <h3 className="font-bold text-lg text-blue-800 mb-2">Scholarships</h3>
@@ -166,8 +168,10 @@ const SecondHome = () => {
               Find the next scholarship you should apply for with personalized recommendations. Access over 1.5 million scholarships.
             </p>
           </div>
+          </Link>
 
           {/* Card 2 */}
+          <Link to ='/find-internship'>
           <div className="bg-white shadow-lg p-6 rounded-xl">
             <FaBriefcase className="text-3xl bg-cyan-500 text-white p-2 rounded-md mb-4" />
             <h3 className="font-bold text-lg text-blue-800 mb-2">Internships</h3>
@@ -175,8 +179,10 @@ const SecondHome = () => {
               Find internship opportunities from popular businesses, based on your major and location.
             </p>
           </div>
+          </Link>
 
           {/* Card 3 */}
+          <Link to ='/student-loans' >
           <div className="bg-white shadow-lg p-6 rounded-xl">
             <FaTag className="text-3xl bg-yellow-400 text-white p-2 rounded-md mb-4" />
             <h3 className="font-bold text-lg text-blue-800 mb-2">Student Discounts</h3>
@@ -184,8 +190,10 @@ const SecondHome = () => {
               Discover daily deals on tech, software, fitness, and more — only for students!
             </p>
           </div>
+          </Link>
 
           {/* Card 4 */}
+          <Link to ='scholarship-news'>
           <div className="bg-white shadow-lg p-6 rounded-xl">
             <FaNewspaper className="text-3xl bg-red-400 text-white p-2 rounded-md mb-4" />
             <h3 className="font-bold text-lg text-blue-800 mb-2">Student News</h3>
@@ -193,7 +201,8 @@ const SecondHome = () => {
               Stay updated with the latest in higher-ed, career tips, and more curated by our editorial team.
             </p>
           </div>
-          <button className="btn btn-outline btn-secondary uppercase">Sign Up for free</button>
+          </Link>
+          <Link to='scholarship-providers' className="btn btn-outline btn-secondary uppercase">Sign Up for free</Link>
 
         </div>
       </div>

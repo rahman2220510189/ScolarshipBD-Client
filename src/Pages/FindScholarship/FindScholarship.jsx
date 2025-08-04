@@ -2,6 +2,7 @@ import img from '../../Image/ddd.avif'
 import img2 from '../../Image/gggg.jpg'
 import img3 from '../../Image/unnamed.png'
 import img4 from '../../Image/images (3).jpeg'
+import { Link } from 'react-router-dom';
 
 const FindScholarship = () => {
     return (
@@ -29,9 +30,7 @@ const FindScholarship = () => {
                     </p>
                     <br />
 
-                    <button className="bg-white text-blue-700 font-semibold py-3 px-6 rounded-lg shadow-lg hover:bg-gray-100 transition">
-                        FIND SCHOLARSHIPS
-                    </button>
+                   
                 </div>
             </div>
            
@@ -59,14 +58,14 @@ const FindScholarship = () => {
                 <div>
                     <img className='w-28 rounded-full mb-5' src={img3} alt="" />
                     <h2 className='text-gray-800 mb-3 font-bold'> Create Your Profile.</h2>
-                    <p >Use your strengths, skills & background to <u className='text-blue-500'>create a profile</u> in less than a minute. Your unique profile will be used to gather the scholarships you should be applying for!
+                    <p >Use your strengths, skills & background to<Link to ='/profile' className='text-blue-500'>create a profile</Link> in less than a minute. Your unique profile will be used to gather the scholarships you should be applying for!
 
                         <span className='mt-1'>Join for free, create your student profile and match to scholarships you'll love.</span></p>
                 </div>
                 <div>
                     <img className='w-36  mb-5' src={img2} alt="" />
                     <h2 className='text-gray-800 mb-3 font-bold'>See Your Scholarship Matches. </h2>
-                    <p ><u className='text-blue-500'>Merit based</u>, <u className='text-blue-500'>high school or college student</u>  , weird scholarships, minority, by state, grade level, featured scholarships and more...our massive database covers all types scholarships. Easily find the scholarships that match your profile.
+                    <p > <Link to = '/match' className='text-blue-500'>high school or college student</Link>  , weird scholarships, minority, by state, grade level, featured scholarships and more...our massive database covers all types scholarships. Easily find the scholarships that match your profile.
 
                         Login daily to see your matches. From this list you’ll know what scholarships you should apply for first.
 
@@ -75,7 +74,8 @@ const FindScholarship = () => {
                 <div>
                     <img className='w-24 mb-5' src={img4} alt="" />
                     <h2 className='text-gray-800 mb-3 font-bold'>Apply. Get Money For College!</h2>
-                    <p>Scholarship BD  database algorithm is designed to help you <u className='text-blue-500'>find the right scholarships</u> to apply for because your qualities make you an ideal scholarship candidate; they fit you.
+                    <p>Scholarship BD  database algorithm is designed to help you <Link to='/guid'
+                    className='text-blue-500'>find the right scholarships</Link> to apply for because your qualities make you an ideal scholarship candidate; they fit you.
                         <span className='mt-1'>Increase your chances of winning by applying early and often!</span></p>
                 </div>
             </div>

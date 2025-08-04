@@ -26,7 +26,7 @@ const NavBar = () => {
                 <li><Link to='find-internship' className="text-sm text-gray-600 hover:text-primary">Find Internship</Link></li>
                 <li><Link to='featured-internship' className="text-sm text-gray-600 hover:text-primary">Featured Internship</Link></li>
                 <li><Link to='job' className="text-sm text-gray-600 hover:text-primary">Part Time Jobs</Link></li>
-                <li><span className="text-sm text-gray-600 cursor-pointer hover:text-primary">Internship News</span></li>
+         
             </ul>
         </div>
 
@@ -35,21 +35,11 @@ const NavBar = () => {
                 Educators
             </div>
             <ul tabIndex={0} className="dropdown-content z-[10] menu p-2 shadow-lg bg-white border border-gray-200 rounded-xl w-56">
-                <li><span className="text-sm text-gray-600 cursor-pointer hover:text-primary">Scholarship Providers</span></li>
-                <li><span className="text-sm text-gray-600 cursor-pointer hover:text-primary">Educators Resources</span></li>
+                <li><Link to='scholarship-providers' className="text-sm text-gray-600 cursor-pointer hover:text-primary">Scholarship Providers</Link></li>
+           
             </ul>
         </div>
-
-        <div className="dropdown dropdown-hover">
-            <div tabIndex={0} className="text-[15px] font-medium tracking-wide ml-4 mr-4 uppercase text-gray-700 cursor-pointer hover:text-primary transition duration-200">
-                Parents
-            </div>
-            <ul tabIndex={0} className="dropdown-content z-[10] menu p-2 shadow-lg bg-white border border-gray-200 rounded-xl w-56">
-                <li><span className="text-sm text-gray-600 cursor-pointer hover:text-primary">Parents Resources</span></li>
-                <li><span className="text-sm text-gray-600 cursor-pointer hover:text-primary">Parent Student Loan</span></li>
-                <li><span className="text-sm text-gray-600 cursor-pointer hover:text-primary">Parents News</span></li>
-            </ul>
-        </div>
+        
 
         <div className="flex gap-3 ml-6">
             <Link to='/login' className="px-4 py-1.5 rounded-md border border-primary text-primary font-semibold text-sm hover:bg-primary hover:text-white transition duration-200">Log In</Link>
