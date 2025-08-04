@@ -43,7 +43,6 @@ const NavBar = () => {
 
         <div className="flex gap-3 ml-6">
             <Link to='/login' className="px-4 py-1.5 rounded-md border border-primary text-primary font-semibold text-sm hover:bg-primary hover:text-white transition duration-200">Log In</Link>
-            <Link to='/signup' className="px-4 py-1.5 rounded-md bg-primary text-white font-semibold text-sm hover:bg-primary/90 transition duration-200">Sign Up</Link>
         </div>
     </>;
 

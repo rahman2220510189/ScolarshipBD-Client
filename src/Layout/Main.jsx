@@ -1,14 +1,17 @@
 import React from 'react';
-import { Outlet } from 'react-router-dom';
+import { Outlet, useLocation } from 'react-router-dom';
 import Footer from '../Pages/Footer/Footer';
 import NavBar from '../Pages/NavBar/NavBar';
 
 const Main = () => {
+    const location = useLocation();
+    const hideLayout = ['/login'];
+    const isFullScreen = hideLayout.includes(location.pathname)
     return (
         <div>
-            <NavBar></NavBar>
+           {!isFullScreen &&  <NavBar></NavBar>}
             <Outlet></Outlet>
-            <Footer></Footer>
+           {!isFullScreen &&  <Footer></Footer>}
         </div>
     );
 };

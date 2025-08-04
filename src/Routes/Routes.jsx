@@ -22,6 +22,9 @@ import ScholarshipProvider from "../Pages/ScholarshipProvider/ScholarshipProvide
 import ProfileForm from "../Pages/FindScholarship/ProfileForm";
 import SchoolForm from "../Pages/FindScholarship/SchoolForm";
 import Guid from "../Pages/FindScholarship/Guid";
+import LogIn from "../Pages/Login/LogIn";
+import SignUp from "../Pages/Login/SignUp";
+
 
 export const router = createBrowserRouter([
   {
@@ -105,6 +108,14 @@ export const router = createBrowserRouter([
         {
             path:'guid',
             element:<Guid></Guid>,
+        },
+        {
+            path:'login',
+            element:<LogIn></LogIn>,
+        },
+        {
+        path: 'signup',
+        element:<SignUp></SignUp>,
         },
        
     
