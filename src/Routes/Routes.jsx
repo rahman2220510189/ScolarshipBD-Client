@@ -24,6 +24,7 @@ import SchoolForm from "../Pages/FindScholarship/SchoolForm";
 import Guid from "../Pages/FindScholarship/Guid";
 import LogIn from "../Pages/Login/LogIn";
 import SignUp from "../Pages/Login/SignUp";
+import PrivateRoute from "./PrivateRoute";
 
 
 export const router = createBrowserRouter([
@@ -45,7 +46,7 @@ export const router = createBrowserRouter([
         }, 
          {
             path:'apply/:companyName',
-               element:<ApplyPage></ApplyPage>,
+               element:<PrivateRoute><ApplyPage></ApplyPage></PrivateRoute>,
         },
           
   
@@ -66,7 +67,7 @@ export const router = createBrowserRouter([
         },
         {
             path:'student-loans',
-            element:<StudentLoans></StudentLoans>,
+            element:<PrivateRoute><StudentLoans></StudentLoans></PrivateRoute>,
         },
         {
             path:'find-internship',
@@ -82,7 +83,7 @@ export const router = createBrowserRouter([
         },
         {
             path:'/apply/:id',
-            element:<FeaturedInternshipApply></FeaturedInternshipApply>,
+            element:<PrivateRoute><FeaturedInternshipApply></FeaturedInternshipApply></PrivateRoute>,
         },
            {
             path:'/job',
@@ -90,7 +91,7 @@ export const router = createBrowserRouter([
         },
         {
             path:'/job/:id',
-            element:<JoBDetails></JoBDetails>,
+            element:<PrivateRoute><JoBDetails></JoBDetails></PrivateRoute>,
         },
         {
             path:'/scholarship-providers',
@@ -98,16 +99,16 @@ export const router = createBrowserRouter([
         },
         {
             path:'profile',
-            element:<ProfileForm></ProfileForm>,
+            element:<PrivateRoute><ProfileForm></ProfileForm></PrivateRoute>,
         },
         {
            path:'match',
-           element:<SchoolForm></SchoolForm>,
+           element:<PrivateRoute><SchoolForm></SchoolForm></PrivateRoute>,
 
         },
         {
             path:'guid',
-            element:<Guid></Guid>,
+            element:<PrivateRoute><Guid></Guid></PrivateRoute>,
         },
         {
             path:'login',

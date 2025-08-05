@@ -52,11 +52,11 @@ const NavBar = () => {
         {
             user ? (<button
                 onClick={handleLogout}
-                className="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600"
+                className="bg-blue-700 font-bold text-white px-4 py-2 rounded  hover:bg-red-600"
             >
-                Logout
+                Log Out
             </button>) : <div className="flex gap-3 ml-6">
-                <Link to='/login' className="px-4 py-1.5 rounded-md border border-primary text-primary font-semibold text-sm hover:bg-primary hover:text-white transition duration-200">Log In</Link>
+                <Link to='/login' state={{from: location}}replace className="px-4 py-1.5 rounded-md border border-primary text-primary font-semibold text-sm hover:bg-primary hover:text-white transition duration-200">Log In</Link>
             </div>
         }
 
