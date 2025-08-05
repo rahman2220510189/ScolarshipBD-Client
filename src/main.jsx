@@ -7,11 +7,14 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import { router } from './Routes/Routes.jsx';
+import AuthProviders from './Pages/Firebase/Providers/AuthProviders.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-   <div className='max-w-screen-xl mx-auto'>
+   <AuthProviders>
+    <div className='max-w-screen-xl mx-auto'>
     <RouterProvider router={router} />
    </div>
+   </AuthProviders>
   </StrictMode>,
 )

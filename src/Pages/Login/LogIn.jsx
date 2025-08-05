@@ -1,8 +1,10 @@
-import { useState } from "react";
+import { useContext, useState } from "react";
 import { MdEmail, MdLock } from 'react-icons/md';
 import { FcGoogle } from 'react-icons/fc';
 import { AiFillEye, AiFillEyeInvisible } from 'react-icons/ai';
 import { Link, useNavigate } from "react-router-dom";
+import { AuthContext } from "../Firebase/Providers/AuthProviders";
+
 
 const LogIn = () => {
   const [showPassword, setShowPassword] = useState(false);
@@ -10,19 +12,36 @@ const LogIn = () => {
   const [errorMessage, setErrorMessage] = useState('');
   const navigate = useNavigate();
 
+  const { signIn, googleSignIn } = useContext(AuthContext);
+
   const handleSubmit = (e) => {
     e.preventDefault();
     const email = e.target.email.value;
-
+    const password = e.target.password.value;
     console.log(email, password);
 
-    if (isStrongPassword(password)) {
-      setErrorMessage('');
-      navigate('/');
-    } else {
+    if (!isStrongPassword(password)) {
       setErrorMessage('Invalid password. Please try again.');
+      return;
     }
+    signIn(email, password)
+      .then(result => {
+        const user = result.user;
+        console.log(user);
+        setErrorMessage(' ')
+        navigate('/')
+      });
+
   };
+  const handleGoogleLogin = () => {
+    googleSignIn()
+      .then(result => {
+        const loggedUser = result.user;
+        console.log("Google user:", loggedUser);
+        navigate('/');
+      })
+
+  }
 
   const isStrongPassword = (pass) => {
     return /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{8,}$/.test(pass);
@@ -90,7 +109,7 @@ const LogIn = () => {
         {/* Google Login */}
         <button
           type="button"
-          onClick={() => console.log("Google login")}
+          onClick={handleGoogleLogin}
           className="w-full py-3 flex items-center justify-center border border-gray-300 rounded-xl hover:bg-gray-100 transition duration-200"
         >
           <FcGoogle className="text-2xl mr-2" />

@@ -1,6 +1,15 @@
+import { useContext } from "react";
 import { Link } from "react-router-dom";
+import { AuthContext } from "../Firebase/Providers/AuthProviders";
 
 const NavBar = () => {
+    const { user, logOut } = useContext(AuthContext);
+    const handleLogout = () => {
+        logOut()
+            .then(() => {
+                console.log('logged out ')
+            })
+    }
     const navOptions = <>
         <Link to='/' className="text-[15px] font-medium tracking-wide ml-4 mr-4 uppercase text-gray-700 cursor-pointer hover:text-primary transition duration-200">Home</Link>
 
@@ -26,7 +35,7 @@ const NavBar = () => {
                 <li><Link to='find-internship' className="text-sm text-gray-600 hover:text-primary">Find Internship</Link></li>
                 <li><Link to='featured-internship' className="text-sm text-gray-600 hover:text-primary">Featured Internship</Link></li>
                 <li><Link to='job' className="text-sm text-gray-600 hover:text-primary">Part Time Jobs</Link></li>
-         
+
             </ul>
         </div>
 
@@ -36,14 +45,21 @@ const NavBar = () => {
             </div>
             <ul tabIndex={0} className="dropdown-content z-[10] menu p-2 shadow-lg bg-white border border-gray-200 rounded-xl w-56">
                 <li><Link to='scholarship-providers' className="text-sm text-gray-600 cursor-pointer hover:text-primary">Scholarship Providers</Link></li>
-           
+
             </ul>
         </div>
-        
 
-        <div className="flex gap-3 ml-6">
-            <Link to='/login' className="px-4 py-1.5 rounded-md border border-primary text-primary font-semibold text-sm hover:bg-primary hover:text-white transition duration-200">Log In</Link>
-        </div>
+        {
+            user ? (<button
+                onClick={handleLogout}
+                className="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600"
+            >
+                Logout
+            </button>) : <div className="flex gap-3 ml-6">
+                <Link to='/login' className="px-4 py-1.5 rounded-md border border-primary text-primary font-semibold text-sm hover:bg-primary hover:text-white transition duration-200">Log In</Link>
+            </div>
+        }
+
     </>;
 
     return (
