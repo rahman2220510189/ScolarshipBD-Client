@@ -1,12 +1,61 @@
-# React + Vite
+# 🎓 ScholarshipBD Client
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to **ScholarshipBD** — a platform built to empower students across Bangladesh by connecting them with **scholarships**, **part-time jobs**, and **internship opportunities**.  
+Whether you're a university student looking for financial aid or a fresh graduate seeking experience, ScholarshipBD is designed to help you take the next step in your journey. 🌱
 
-Currently, two official plugins are available:
+> “Education is the passport to the future, for tomorrow belongs to those who prepare for it today.” – Malcolm X
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ✨ What Is ScholarshipBD?
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+ScholarshipBD is a full-stack web application that simplifies the process of discovering and applying for:
+
+- 🎓 Scholarships (local & international)
+- 💼 Part-time jobs for students
+- 🧪 Internships to gain real-world experience
+
+Built with modern technologies like **React**, **TailwindCSS**, and **Firebase**, the platform ensures a smooth, secure, and responsive user experience.
+
+---
+
+## 🚀 Key Features
+
+- 🔐 **Authentication**: Secure login with Firebase (Email/Password & Google)
+- 📄 **Application Form**: Submit your details with photo/CV upload
+- 🔍 **Smart Filtering**: Browse by category — scholarship, job, internship
+- 🧑‍🎓 **Protected Routes**: Only logged-in users can apply
+- 🎨 **Modern UI**: Clean design using TailwindCSS + DaisyUI
+- 🌐 **Backend Integration**: Communicates with Express server via Axios
+
+---
+
+## 🛠️ Tech Stack
+
+| Frontend      | Backend         | Auth & Storage |
+|---------------|-----------------|----------------|
+| React (Vite)  | Express.js      | Firebase       |
+| TailwindCSS   | MongoDB         | Multer         |
+| DaisyUI       | Node.js         | Axios          |
+
+---
+
+## 📦 Installation Guide
+
+```bash
+git clone https://github.com/rahman2220510189/ScolarshipBD-Client
+cd ScolarshipBD-Client
+npm install
+npm run dev
+
+and firebase setup
+
+  apiKey: import.meta.env.VITE_apiKey,
+  authDomain: import.meta.env.VITE_authDomain,
+  projectId: import.meta.env.VITE_projectId,
+  storageBucket: import.meta.env.VITE_storageBucket,
+  messagingSenderId: import.meta.env.VITE_messagingSenderId,
+  appId: import.meta.env.VITE_appId
+
+
+
