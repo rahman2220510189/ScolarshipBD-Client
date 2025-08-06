@@ -1,3 +1,4 @@
+import axios from "axios";
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 
@@ -6,9 +7,9 @@ const FeaturedScholarship = () => {
   const navigate = useNavigate();
   
   useEffect(() =>{
-    fetch('/dami.json')
-    .then(res => res.json())
-    .then(data => setScholarship(data))
+    axios.get('http://localhost:3000/findScholarship')
+    .then(res => setScholarship(res.data))
+    .then(err => console.error(err));
 
   }, []);
       const handleApply = (item) =>{

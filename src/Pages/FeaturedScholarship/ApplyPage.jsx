@@ -1,20 +1,36 @@
+import axios from "axios";
 import { useForm } from "react-hook-form";
 import { useLocation, useParams } from "react-router-dom";
 
 
 const ApplyPage = () => {
-    const location = useLocation();
-    const {companyName} = useParams();
-    const{scholarshipData} = location.state || {};
-      const { register, handleSubmit } = useForm();
-      const onSubmit = (data) =>{
-        console.log('Form Data:', data)
-        alert("Application submitted successfully!");
+  const location = useLocation();
+  const { companyName } = useParams();
+  const { scholarshipData } = location.state || {};
+  const { register, handleSubmit } = useForm();
+  const onSubmit = async (data) => {
+    try {
+      const formData = { ...data };
+      if (data.photo && data.photo.length > 0 && data.photo[0]) {
+        formData.photo = data.photo[0].name;
+      }  else {
+      formData.photo = ''; 
+    }
+      const response = await axios.post('http://localhost:3000/apply', formData);
+      if (response.data.success) {
+        alert('Application submitted successfully')
       }
-    return (
-        <div className="max-w-3xl mx-auto py-10 px-6">
+    } catch (error) {
+      console.error('Error submitting application:', error);
+      alert('Failed to submit application');
+    }
+
+
+  }
+  return (
+    <div className="max-w-3xl mx-auto py-10 px-6">
       <h1 className="text-3xl font-bold mb-4">Apply to {companyName}</h1>
-      {scholarshipData &&(
+      {scholarshipData && (
         <>
           <img src={scholarshipData.logo} alt="logo" className="h-12 mb-4" />
           <p className="text-gray-700 mb-2">{scholarshipData.description}</p>
@@ -22,7 +38,7 @@ const ApplyPage = () => {
           <p className="text-gray-500">Deadline: {scholarshipData.deadline}</p>
         </>
       )};
-            <form onSubmit={handleSubmit(onSubmit)} className="grid grid-cols-1 md:grid-cols-2 gap-4 bg-white p-6 rounded-lg shadow-md">
+      <form onSubmit={handleSubmit(onSubmit)} className="grid grid-cols-1 md:grid-cols-2 gap-4 bg-white p-6 rounded-lg shadow-md">
         <input {...register("name")} placeholder="Full Name" className="input" required />
         <input {...register("age")} type="number" placeholder="Age" className="input" required />
         <input {...register("email")} type="email" placeholder="Email" className="input" required />
@@ -53,7 +69,7 @@ const ApplyPage = () => {
         </select>
 
         <input {...register("photo")} type="file" className="input" />
-        
+
         <textarea
           {...register("purpose")}
           placeholder="Why do you deserve this scholarship?"
@@ -69,8 +85,8 @@ const ApplyPage = () => {
     </div>
 
 
-    
-    );
+
+  );
 };
 
 export default ApplyPage;
