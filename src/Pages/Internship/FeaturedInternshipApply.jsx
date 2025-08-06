@@ -1,20 +1,38 @@
 import { useForm } from "react-hook-form";
 import { useLocation, useParams } from "react-router-dom";
+import axios from "axios";
 
 const FeaturedInternshipApply = () => {
-const {id} = useParams();
-const {state: company} = useLocation();
+  const { id } = useParams();
+  const { state: company } = useLocation();
   const { register, handleSubmit, reset } = useForm();
 
+  const onSubmit = async (data) => {
+    try {
+      const applicationData = {
+        ...data,
+        internshipId: id,
+        companyName: company.companyName,
+        companyLogo: company.logo,
+        appliedAt: new Date().toISOString(),
+      };
 
-  const onSubmit = (data) => {
-    console.log('Applied for' , company.companyName);
-    console.log('from data', data)
-    alert('Application submitted successfully')
-    reset();
-  }
-    return (
-           <div className="max-w-4xl mx-auto p-6">
+      const res = await axios.post("http://localhost:3000/apply_internship", applicationData);
+
+      if (res.data.success) {
+        alert("Application submitted successfully!");
+        reset();
+      } else {
+        alert("Something went wrong while submitting your application.");
+      }
+    } catch (error) {
+      console.error("Error submitting application:", error);
+      alert("Failed to submit. Please try again later.");
+    }
+  };
+
+  return (
+    <div className="max-w-4xl mx-auto p-6">
       {/* Company Info */}
       <div className="border p-4 rounded shadow mb-6">
         <img src={company.logo} alt={company.companyName} className="w-24 h-24 mb-2" />
@@ -24,7 +42,6 @@ const {state: company} = useLocation();
 
       {/* Form */}
       <form onSubmit={handleSubmit(onSubmit)} className="grid grid-cols-1 sm:grid-cols-2 gap-4 border p-4 rounded shadow">
-
         <input {...register("name")} placeholder="Full Name" className="border p-2 rounded" required />
         <input {...register("email")} type="email" placeholder="Email" className="border p-2 rounded" required />
         <input {...register("phone")} placeholder="Phone Number" className="border p-2 rounded" required />
@@ -60,8 +77,7 @@ const {state: company} = useLocation();
         </button>
       </form>
     </div>
-    
-    );
+  );
 };
 
 export default FeaturedInternshipApply;

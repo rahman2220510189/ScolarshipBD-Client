@@ -1,3 +1,4 @@
+import axios from "axios";
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
@@ -9,12 +10,18 @@ const FeaturedInernship = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch('/companies.json')
-      .then(res => res.json())
-      .then(data => {
-        setCompanies(data);
+   axios.get('http://localhost:3000/job')
+      .then(res => {
+        setCompanies(res.data);
         setLoading(false);
+
+      })
+      .catch(error => {
+      console.error("Error fetching jobs:", error);
+      setLoading(false);
+
       });
+      
   }, []);
 
   const maxPage = Math.ceil(companies.length / ITEM_PER_PAGE);

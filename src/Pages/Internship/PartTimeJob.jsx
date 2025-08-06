@@ -1,3 +1,4 @@
+import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 
@@ -6,10 +7,10 @@ const PartTimeJob = () => {
     const [currentPage, setCurrentPage] = useState(1);
     const jobsPerPage = 6;
     useEffect(() => {
-        fetch('/job.json')
-            .then(res => res.json())
-            .then(data => setJobs(data))
+            axios.get('http://localhost:3000/jobs')
 
+            .then(res => setJobs(res.data))
+            .catch(err => console.error(err));
     }, []);
     const indexOfListJob = currentPage * jobsPerPage;
     const indexOfFirstJob = indexOfListJob - jobsPerPage;

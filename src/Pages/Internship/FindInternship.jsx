@@ -1,4 +1,5 @@
 
+import axios from "axios";
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
@@ -8,11 +9,10 @@ const FindInternship = () => {
     const [visibleCount, setVisibleCount] = useState(4);
 
     useEffect(() => {
-        fetch('/internship.json')
-            .then(res => res.json())
-            .then(data => {
-                setInternship(data)
-            })
+        axios.get('http://localhost:3000/internship')
+            .then(res => setInternship(res.data))
+            .catch(err => console.error(err));
+            
 
     }, []);
 

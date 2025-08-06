@@ -1,3 +1,4 @@
+import axios from "axios";
 import { useEffect, useState } from "react";
 import { useForm } from "react-hook-form";
 import { useParams } from "react-router-dom";
@@ -7,19 +8,36 @@ const JoBDetails = () => {
     const [job, setJob] = useState(null);
 
     useEffect(() => {
-        fetch('/job.json')
-            .then(res => res.json())
-            .then(data => {
-                const foundJob = data.find(j => j.id === parseInt(id));
-                setJob(foundJob);
-            });
+        axios.get('http://localhost:3000/jobs')
+            .then(res => {
+            const foundJob =res.data.find(j => j.id === parseInt(id));
+             setJob(foundJob);
+            })
+            .catch(err =>console.error(err));
     }, [id]);
 
     const { register, handleSubmit, formState: { errors } } = useForm();
 
-    const onSubmit = data => {
-        console.log("Application Submitted:", data);
-        alert(`Application submitted for ${job.jobTitle}`);
+    const onSubmit =async data => {
+        const applicationData = {
+        ...data,
+        jobId: job.id,
+        jobTitle: job.jobTitle,
+        companyName: job.companyName,
+        appliedAt: new Date()
+    };
+
+    try {
+        const response = await axios.post("http://localhost:3000/apply_job", applicationData);
+        if (response.data.insertedId || response.data.success) {
+            alert(`Application submitted successfully for ${job.jobTitle}`);
+        } else {
+            alert("Failed to submit application.");
+        }
+    } catch (error) {
+        console.error("Application submission error:", error);
+        alert("Something went wrong. Please try again.");
+    }
     };
 
     if (!job) {

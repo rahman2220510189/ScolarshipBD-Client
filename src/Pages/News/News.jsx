@@ -1,3 +1,4 @@
+import axios from "axios";
 import { useEffect, useState } from "react";
 import Marquee from "react-fast-marquee";
 
@@ -6,12 +7,9 @@ const News = () => {
     const [item, setItem] = useState([]);
     const [page, setPage] = useState(1);
     useEffect(()=>{
-        fetch('/news.json')
-        .then(res => res.json())
-        .then(data =>{
-            console.log(data)
-            setItem(data)
-        })
+        axios.get('http://localhost:3000/news')
+        .then(res => setItem(res.data))
+        .catch(err => console.error(err));
 
     },[])
      const start = (page-1)*ITEM_PER_PAGE;

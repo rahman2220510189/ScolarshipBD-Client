@@ -1,3 +1,4 @@
+import axios from "axios";
 import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 
@@ -5,12 +6,13 @@ const InternshipDetails = () => {
     const {id} = useParams();
     const [company , setCompany] = useState(null);
     useEffect(()=>{
-      fetch("/internship.json")
-      .then((res) => res.json())
-      .then(data =>{
-        const found = data.find((item) => item.id.toString() === id);
-        setCompany(found)
+      axios.get('http://localhost:3000/internship')
+      .then((res) => {
+      const found = res.data.find((item) => item.id.toString() === id);
+      setCompany(found)
       })
+      .catch(err => console.error(err))
+     
 
     },[id])
      if (!company) return <p>Loading...</p>

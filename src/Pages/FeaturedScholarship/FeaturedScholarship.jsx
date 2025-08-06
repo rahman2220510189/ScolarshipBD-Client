@@ -9,7 +9,8 @@ const FeaturedScholarship = () => {
   useEffect(() =>{
     axios.get('http://localhost:3000/findScholarship')
     .then(res => setScholarship(res.data))
-    .then(err => console.error(err));
+   
+    .catch(err => console.error(err));
 
   }, []);
       const handleApply = (item) =>{
