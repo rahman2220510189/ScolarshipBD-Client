@@ -1,9 +1,10 @@
 import { useContext } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { AuthContext } from "../Firebase/Providers/AuthProviders";
 
 const NavBar = () => {
     const { user, logOut } = useContext(AuthContext);
+    const location =useLocation();
     const handleLogout = () => {
         logOut()
             .then(() => {
@@ -88,4 +89,4 @@ const NavBar = () => {
     );
 };
 
-export default NavBar;
+export default NavBar; 
