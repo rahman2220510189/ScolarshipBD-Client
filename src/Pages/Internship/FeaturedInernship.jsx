@@ -10,7 +10,7 @@ const FeaturedInernship = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-   axios.get('http://localhost:3000/job')
+   axios.get('http://localhost:5000/job')
       .then(res => {
         setCompanies(res.data);
         setLoading(false);

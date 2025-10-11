@@ -17,7 +17,7 @@ import InternshipDetails from "../Pages/Internship/InternshipDetails";
 import FeaturedInernship from "../Pages/Internship/FeaturedInernship";
 import FeaturedInternshipApply from "../Pages/Internship/FeaturedInternshipApply";
 import PartTimeJob from "../Pages/Internship/PartTimeJob";
-import JoBDetails from "../Pages/Internship/JoBDEtails";
+
 import ScholarshipProvider from "../Pages/ScholarshipProvider/ScholarshipProvider";
 import ProfileForm from "../Pages/FindScholarship/ProfileForm";
 import SchoolForm from "../Pages/FindScholarship/SchoolForm";
@@ -25,6 +25,7 @@ import Guid from "../Pages/FindScholarship/Guid";
 import LogIn from "../Pages/Login/LogIn";
 import SignUp from "../Pages/Login/SignUp";
 import PrivateRoute from "./PrivateRoute";
+import { JobInformation } from "../Pages/Internship/JobInformation";
 
 
 export const router = createBrowserRouter([
@@ -91,7 +92,7 @@ export const router = createBrowserRouter([
         },
         {
             path:'/job/:id',
-            element:<PrivateRoute><JoBDetails></JoBDetails></PrivateRoute>,
+            element:<PrivateRoute><JobInformation></JobInformation></PrivateRoute>,
         },
         {
             path:'/scholarship-providers',

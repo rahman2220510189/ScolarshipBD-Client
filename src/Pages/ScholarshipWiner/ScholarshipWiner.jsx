@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 const ScholarshipWiner = () => {
     const [items, setItems] = useState([])
     useEffect(() => {
-       axios.get('http://localhost:3000/winner')
+       axios.get('http://localhost:5000/winner')
             .then(res => setItems(res.data))
             .catch(err => console.error(err));
           }, []);

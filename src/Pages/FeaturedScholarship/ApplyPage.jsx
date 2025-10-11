@@ -16,7 +16,7 @@ const ApplyPage = () => {
       }  else {
       formData.photo = ''; 
     }
-      const response = await axios.post('http://localhost:3000/apply', formData);
+      const response = await axios.post('http://localhost:5000/apply', formData);
       if (response.data.success) {
         alert('Application submitted successfully')
       }

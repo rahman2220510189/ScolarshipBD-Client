@@ -7,7 +7,7 @@ const FeaturedScholarship = () => {
   const navigate = useNavigate();
   
   useEffect(() =>{
-    axios.get('http://localhost:3000/findScholarship')
+    axios.get('http://localhost:5000/findScholarship')
     .then(res => setScholarship(res.data))
    
     .catch(err => console.error(err));

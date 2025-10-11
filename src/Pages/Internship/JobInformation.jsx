@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { useForm } from "react-hook-form";
 import { useParams } from "react-router-dom";
 
-const JoBDetails = () => {
+export const JobInformation = () =>  {
     const { id } = useParams();
     const [job, setJob] = useState(null);
 
@@ -28,7 +28,7 @@ const JoBDetails = () => {
     };
 
     try {
-        const response = await axios.post("http://localhost:3000/apply_job", applicationData);
+        const response = await axios.post("http://localhost:5000/apply_job", applicationData);
         if (response.data.insertedId || response.data.success) {
             alert(`Application submitted successfully for ${job.jobTitle}`);
         } else {
@@ -125,4 +125,5 @@ const JoBDetails = () => {
     );
 };
 
-export default JoBDetails;
+
+

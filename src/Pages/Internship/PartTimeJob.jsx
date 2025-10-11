@@ -7,7 +7,7 @@ const PartTimeJob = () => {
     const [currentPage, setCurrentPage] = useState(1);
     const jobsPerPage = 6;
     useEffect(() => {
-            axios.get('http://localhost:3000/jobs')
+            axios.get('http://localhost:5000/jobs')
 
             .then(res => setJobs(res.data))
             .catch(err => console.error(err));

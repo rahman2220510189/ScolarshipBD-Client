@@ -17,7 +17,7 @@ const FeaturedInternshipApply = () => {
         appliedAt: new Date().toISOString(),
       };
 
-      const res = await axios.post("http://localhost:3000/apply_internship", applicationData);
+      const res = await axios.post("http://localhost:5000", applicationData);
 
       if (res.data.success) {
         alert("Application submitted successfully!");
