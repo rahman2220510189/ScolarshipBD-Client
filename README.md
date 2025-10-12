@@ -28,7 +28,10 @@ Built with modern technologies like **React**, **TailwindCSS**, and **Firebase**
 - 🎨 **Modern UI**: Clean design using TailwindCSS + DaisyUI
 - 🌐 **Backend Integration**: Communicates with Express server via Axios
 
----
+- 
+
+---live link:https://scolarship-bd-client-714s-1lmx9ec9u.vercel.app/
+
 
 ## 🛠️ Tech Stack
 
