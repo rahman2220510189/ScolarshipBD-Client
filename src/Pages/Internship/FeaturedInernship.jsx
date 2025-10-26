@@ -10,7 +10,7 @@ const FeaturedInernship = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-   axios.get('http://localhost:5000/job')
+   axios.get('https://scolarshipbd-server-production.up.railway.app/job')
       .then(res => {
         setCompanies(res.data);
         setLoading(false);

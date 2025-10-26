@@ -28,7 +28,7 @@ export const JobInformation = () =>  {
     };
 
     try {
-        const response = await axios.post("http://localhost:5000/apply_job", applicationData);
+        const response = await axios.post("https://scolarshipbd-server-production.up.railway.app/apply_job", applicationData);
         if (response.data.insertedId || response.data.success) {
             alert(`Application submitted successfully for ${job.jobTitle}`);
         } else {

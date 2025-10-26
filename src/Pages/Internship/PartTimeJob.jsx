@@ -7,7 +7,7 @@ const PartTimeJob = () => {
     const [currentPage, setCurrentPage] = useState(1);
     const jobsPerPage = 6;
     useEffect(() => {
-            axios.get('http://localhost:5000/jobs')
+            axios.get('https://scolarshipbd-server-production.up.railway.app/jobs')
 
             .then(res => setJobs(res.data))
             .catch(err => console.error(err));

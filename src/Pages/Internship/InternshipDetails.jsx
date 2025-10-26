@@ -6,7 +6,7 @@ const InternshipDetails = () => {
     const {id} = useParams();
     const [company , setCompany] = useState(null);
     useEffect(()=>{
-      axios.get('http://localhost:5000/internship')
+      axios.get('https://scolarshipbd-server-production.up.railway.app/internship')
       .then((res) => {
       const found = res.data.find((item) => item.id.toString() === id);
       setCompany(found)

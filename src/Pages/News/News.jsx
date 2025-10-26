@@ -7,7 +7,7 @@ const News = () => {
     const [item, setItem] = useState([]);
     const [page, setPage] = useState(1);
     useEffect(()=>{
-        axios.get('http://localhost:5000/news')
+        axios.get('https://scolarshipbd-server-production.up.railway.app/news')
         .then(res => setItem(res.data))
         .catch(err => console.error(err));
 

@@ -17,7 +17,7 @@ const FeaturedInternshipApply = () => {
         appliedAt: new Date().toISOString(),
       };
 
-      const res = await axios.post("http://localhost:5000", applicationData);
+      const res = await axios.post("https://scolarshipbd-server-production.up.railway.app/", applicationData);
 
       if (res.data.success) {
         alert("Application submitted successfully!");

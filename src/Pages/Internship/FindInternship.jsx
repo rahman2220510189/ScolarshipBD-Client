@@ -9,7 +9,7 @@ const FindInternship = () => {
     const [visibleCount, setVisibleCount] = useState(4);
 
     useEffect(() => {
-        axios.get('http://localhost:5000/internship')
+        axios.get('https://scolarshipbd-server-production.up.railway.app/internship')
             .then(res => setInternship(res.data))
             .catch(err => console.error(err));
             
