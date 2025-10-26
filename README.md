@@ -30,7 +30,7 @@ Built with modern technologies like **React**, **TailwindCSS**, and **Firebase**
 
 - 
 
----live link:https://scolarship-bd-client-714s-1lmx9ec9u.vercel.app/
+---live link:https://scolarship-bd-client-8vlr.vercel.app/
 
 
 ## 🛠️ Tech Stack
